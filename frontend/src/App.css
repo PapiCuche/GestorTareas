@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+h3 {
+  color: #333;
+}
+
+.form-control {
+  border-radius: 30px;
+}
+
+.btn-primary {
+  border-radius: 30px;
+  background: #333;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #555;
+}
